@@ -40,9 +40,9 @@ def submit():
     StudentNumber = request.form.get('StudentNumber')
     Major = request.form.get('Major')
     Time = request.form.get('Time')
-    menu = request.form.get('menu')
+    Menu = request.form.get('Menu')
 
-    return render_template('submit.html', Name=Name, StudentNumber=StudentNumber, Major=Major, Time=Time, menu=menu)
+    return render_template('submit.html', Name=Name, StudentNumber=StudentNumber, Major=Major, Time=Time, Menu=Menu)
 
 
 if __name__ == '__main__':
